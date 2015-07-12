@@ -1,0 +1,577 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Huesos 1.1.0\n"
+"Report-Msgid-Bugs-To: https://audiotheme.com/support/\n"
+"POT-Creation-Date: 2015-03-18 18:21:27+00:00\n"
+"PO-Revision-Date: Sat Mar 21 2015 14:49:26 GMT+0100 (Romance Standard Time)\n"
+"Last-Translator: webmaster <webmaster@echoduoans.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: French (France)\n"
+"Plural-Forms: nplurals=2; plural=n > 1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Loco - https://localise.biz/\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+"X-Loco-Target-Locale: fr_FR"
+
+#: 404.php:18
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Page non trouvée."
+
+#: 404.php:23
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+"Il semble qu'aucun résultat n'a été trouvé à cet endroit. Essayez peut-être "
+"de faire une recherche ?"
+
+#: audiotheme/archive-gig.php:25 audiotheme/parts/content-none-gig.php:38
+#: includes/vendor/cedaro-theme/class-cedaro-theme-featuredcontent.php:334
+msgid "Date"
+msgstr "Date"
+
+#: audiotheme/archive-gig.php:26 audiotheme/parts/content-none-gig.php:39
+msgid "Location"
+msgstr "Lieu"
+
+#: audiotheme/archive-record.php:30 audiotheme/archive-video.php:31
+#: includes/template-tags.php:363
+msgid "Next"
+msgstr "Suivant"
+
+#: audiotheme/archive-record.php:31 audiotheme/archive-video.php:32
+#: includes/template-tags.php:362
+msgid "Previous"
+msgstr "Précédent"
+
+#: audiotheme/parts/content-none-gig.php:29
+msgid "Recent Shows"
+msgstr "Concerts récents"
+
+#: audiotheme/parts/content-none-gig.php:33
+#: audiotheme/parts/content-none-gig.php:63
+msgid "There currently aren't any scheduled shows. Check back soon!"
+msgstr ""
+"Aucun nouveau concert n'est programmé pour le moment. N'hésitez pas à "
+"consulter à nouveau bientôt !"
+
+#: audiotheme/parts/content-none.php:12 templates/parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "Aucun résultat"
+
+#: audiotheme/parts/gig-card.php:17 audiotheme/widgets/upcoming-gigs.php:27
+msgid "More"
+msgstr "Plus"
+
+#: audiotheme/parts/gig-card.php:24
+msgid "Gig venue details are missing or incomplete."
+msgstr "Les détails du lieu sont manquants ou incomplets."
+
+#: audiotheme/parts/gig-card.php:25
+msgid "Edit Gig"
+msgstr "Modifier le concert"
+
+#: audiotheme/parts/gig-meta.php:20
+msgid "TBD"
+msgstr "A faire"
+
+#: audiotheme/parts/gig-meta.php:31 includes/plugins/audiotheme.php:446
+msgid "Tickets"
+msgstr "Billets"
+
+#: audiotheme/parts/record-meta-track.php:33
+#: audiotheme/parts/record-meta.php:29
+msgid "Record Details"
+msgstr "Détail de l'album"
+
+#: audiotheme/parts/record-meta-track.php:36
+#: audiotheme/parts/record-meta.php:32
+msgid "Artist"
+msgstr "Artiste"
+
+#: audiotheme/parts/record-meta-track.php:41
+#: audiotheme/parts/record-meta.php:37
+msgid "Release"
+msgstr "Mise en vente"
+
+#: audiotheme/parts/record-meta-track.php:46
+#: audiotheme/parts/record-meta.php:42
+msgid "Genre"
+msgstr "Genre"
+
+#: audiotheme/parts/record-meta-track.php:62
+#: audiotheme/widgets/home-widgets_track.php:47
+msgid "Track Links"
+msgstr "Liens de la piste"
+
+#: audiotheme/parts/record-meta-track.php:65
+#: audiotheme/widgets/home-widgets_track.php:50
+msgid "Purchase"
+msgstr "Achat"
+
+#: audiotheme/parts/record-meta-track.php:69
+#: audiotheme/widgets/home-widgets_track.php:54
+msgid "Download"
+msgstr "Télécharger"
+
+#: audiotheme/parts/record-meta.php:53
+#: audiotheme/widgets/home-widgets_record.php:41
+msgid "Record Links"
+msgstr "Liens de l'album"
+
+#: audiotheme/parts/record-tracklist-track.php:11
+#: audiotheme/parts/record-tracklist.php:13
+msgid "Record Tracklist"
+msgstr "Liste des pistes de l'album"
+
+#: audiotheme/parts/venue-meta.php:30
+msgid "Address"
+msgstr "Adresse"
+
+#: audiotheme/parts/venue-meta.php:44
+msgid "Phone"
+msgstr "Téléphone"
+
+#: audiotheme/parts/venue-meta.php:49
+msgid "Website"
+msgstr "Site Web"
+
+#: audiotheme/widgets/upcoming-gigs.php:33
+msgid "No gigs are currently scheduled."
+msgstr "Aucun concert n'est programmé pour le moment."
+
+#: comments.php:37
+#, c-format
+msgid "%1$s Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] "%1$s commentaire"
+msgstr[1] "%1$s commentaires"
+
+#: comments.php:60
+msgid "Comments are closed."
+msgstr "Commentaires non autorisés."
+
+#: front-page.php:29
+msgid "Add Page Content"
+msgstr "Ajouter le contenu à la page"
+
+#: front-page.php:38
+msgid "Add Home Widgets"
+msgstr "Ajouter les modules de la page d'accueil"
+
+#: functions.php:104
+msgid "Primary Menu"
+msgstr "Menu principal"
+
+#: functions.php:105
+msgid "Social Links Menu"
+msgstr "Menu des réseaux sociaux"
+
+#: functions.php:124
+msgid "Main Sidebar"
+msgstr "Zone principale des modules"
+
+#: functions.php:125
+msgid "The right sidebar on posts and pages."
+msgstr "La zone des modules de droite sur les publications et les pages."
+
+#: functions.php:134
+msgid "Home"
+msgstr "Accueil"
+
+#: functions.php:135
+msgid ""
+"Appears in the main content area on the homepage when using a static front "
+"page."
+msgstr ""
+"Apparaît dans la zone de contenu principal sur la page d'accueil si "
+"utilisation d'une page static."
+
+#: functions.php:174
+msgid "Expand"
+msgstr "Etendre"
+
+#: functions.php:175
+msgid "Collapse"
+msgstr "Rassembler"
+
+#: functions.php:189
+msgid "Mute"
+msgstr "Muet"
+
+#: functions.php:190
+msgid "Pause"
+msgstr "Pause"
+
+#: functions.php:191 templates/parts/player.php:14
+msgid "Play"
+msgstr "Jouer"
+
+#: functions.php:192
+msgid "Toggle Playlist"
+msgstr "Affichage/masquage de la liste de lecture"
+
+#: functions.php:193
+msgid "Unmute"
+msgstr "Activer"
+
+#: header.php:20
+msgid "Skip to content"
+msgstr "Passer au contenu"
+
+#: includes/customizer.php:37
+msgid "Background Color"
+msgstr "Couleur de fond"
+
+#: includes/customizer.php:50
+msgid "Accent Color"
+msgstr "Couleur accentuée"
+
+#: includes/customizer.php:56 includes/customizer.php:67
+msgid "Background Image"
+msgstr "Image de fond"
+
+#: includes/customizer.php:73
+msgid "Theme"
+msgstr "Thème"
+
+#: includes/customizer.php:90
+msgid "Disable the site-wide audio player?"
+msgstr "Désactiver le lecture audio sur l'ensemble du site ?"
+
+#. translators: %s: Name of current post
+#: includes/hooks.php:52 includes/template-tags.php:122
+#, c-format
+msgid "Continue reading %s"
+msgstr "Continuer à lire %s"
+
+#: includes/plugins/audiotheme.php:337
+msgid "Disable the sidebar on this archive?"
+msgstr "Désactiver la zone latérale des modules sur cette archive ?"
+
+#: includes/plugins/audiotheme.php:343
+msgid "Disable the sidebar for posts in this archive?"
+msgstr ""
+"Désactiver la zone latérale des modules pour les publications dans cette "
+"archive ?"
+
+#: includes/plugins/audiotheme.php:380
+msgid "Featured Video:"
+msgstr "Vidéo sélectionnée :"
+
+#: includes/plugins/cue.php:18 includes/template-tags.php:16
+msgid "Player"
+msgstr "Lecteur"
+
+#: includes/plugins/easy-digital-downloads.php:89
+msgid "Cart"
+msgstr "Panier"
+
+#: includes/template-tags.php:15
+msgid "Menu"
+msgstr "Menu"
+
+#: includes/template-tags.php:155
+msgid "Leave a comment"
+msgstr "Laisser un commentaire"
+
+#: includes/template-tags.php:156
+msgid "1 Comment"
+msgstr "1 commentaire"
+
+#: includes/template-tags.php:157
+msgid "% Comments"
+msgstr "%s commentaires"
+
+#. translators: %s: Author name
+#: includes/template-tags.php:227
+#, c-format
+msgid "<span class=\"sep\">by</span> %s"
+msgstr "<span class=\"sep\">de</span> %s"
+
+#. translators: %s: Publish date
+#: includes/template-tags.php:251
+#, c-format
+msgid "<span class=\"sep\">on</span> %s"
+msgstr "<span class=\"sep\">le</span> %s"
+
+#: includes/template-tags.php:286
+msgid "Posted In:"
+msgstr "Publié dans :"
+
+#: includes/template-tags.php:287
+msgid "Tagged:"
+msgstr "Taggé :"
+
+#: includes/template-tags.php:382
+msgid "Comment navigation"
+msgstr "Navigation dans les commentaires"
+
+#: includes/template-tags.php:385
+msgid "Older Comments"
+msgstr "Commentaires plus anciens"
+
+#: includes/template-tags.php:389
+msgid "Newer Comments"
+msgstr "Commentaires plus récents"
+
+#: includes/template-tags.php:413
+msgid "Pages"
+msgstr "Pages"
+
+#: includes/template-tags.php:417
+msgid "Page"
+msgstr "Page"
+
+#: includes/template-tags.php:550
+msgid "Create Menu"
+msgstr "Créer le menu"
+
+#: includes/template-tags.php:568
+#, c-format
+msgid "%1$s WordPress theme by %2$s."
+msgstr "%1$s thème WordPress par %2$s."
+
+#: includes/vendor/cedaro-theme/class-cedaro-theme-customize-control-
+#: featuredcontent.php:46
+msgid "An error has occurred. Please reload the page and try again."
+msgstr "Une erreur est survenue. Recharger la page et essayer à nouveau."
+
+#: includes/vendor/cedaro-theme/class-cedaro-theme-customize-control-playlist.php:
+#: 64
+msgid "Edit Playlist"
+msgstr "Modifier la liste de lecture"
+
+#: includes/vendor/cedaro-theme/class-cedaro-theme-featuredcontent.php:182
+msgid "Featured Content"
+msgstr "Contenu sélectionné"
+
+#: includes/vendor/cedaro-theme/class-cedaro-theme-featuredcontent.php:183
+#, c-format
+msgid "Your theme supports up to %d posts in its featured content area."
+msgstr ""
+"Votre thème peut gérer jusqu'à %d publications dans cette zone de contenu "
+"sélectionnée."
+
+#: includes/vendor/cedaro-theme/class-cedaro-theme-featuredcontent.php:228
+msgid "Add Posts"
+msgstr "Ajouter des publications"
+
+#: includes/vendor/cedaro-theme/class-cedaro-theme-featuredcontent.php:236
+msgid "Delete"
+msgstr "Supprimer"
+
+#: includes/vendor/cedaro-theme/class-cedaro-theme-featuredcontent.php:237
+msgid "Close"
+msgstr "Fermer"
+
+#: includes/vendor/cedaro-theme/class-cedaro-theme-featuredcontent.php:244
+msgid "Find Posts"
+msgstr "Trouver des publications"
+
+#: includes/vendor/cedaro-theme/class-cedaro-theme-featuredcontent.php:252
+msgid "Search"
+msgstr "Rechercher"
+
+#: includes/vendor/cedaro-theme/class-cedaro-theme-featuredcontent.php:299
+msgid "No items found."
+msgstr "Aucun élément trouvé."
+
+#: includes/vendor/cedaro-theme/class-cedaro-theme-featuredcontent.php:332
+msgid "Title"
+msgstr "Titre"
+
+#: includes/vendor/cedaro-theme/class-cedaro-theme-featuredcontent.php:333
+msgid "Type"
+msgstr "Type"
+
+#: includes/vendor/cedaro-theme/class-cedaro-theme-featuredcontent.php:335
+msgid "Status"
+msgstr "Etat"
+
+#: includes/vendor/cedaro-theme/class-cedaro-theme-featuredcontent.php:339
+msgid "(no title)"
+msgstr "(pas de titre)"
+
+#: includes/vendor/cedaro-theme/class-cedaro-theme-featuredcontent.php:345
+msgid "Published"
+msgstr "Publié"
+
+#: includes/vendor/cedaro-theme/class-cedaro-theme-featuredcontent.php:348
+msgid "Scheduled"
+msgstr "Programmé"
+
+#: includes/vendor/cedaro-theme/class-cedaro-theme-featuredcontent.php:351
+msgid "Pending Review"
+msgstr "En attente de révision"
+
+#: includes/vendor/cedaro-theme/class-cedaro-theme-featuredcontent.php:354
+msgid "Draft"
+msgstr "Brouillon"
+
+#. translators: date format in table columns, see http:php.net/date
+#: includes/vendor/cedaro-theme/class-cedaro-theme-featuredcontent.php:362
+msgid "Y/m/d"
+msgstr "Y/m/d"
+
+#: includes/vendor/cedaro-theme/class-cedaro-theme-sitelogo-wporg.php:164
+msgid "Display Header Text"
+msgstr "Afficher l'entête"
+
+#: includes/vendor/cedaro-theme/class-cedaro-theme-sitelogo-wporg.php:193
+msgid "Site Logo"
+msgstr "Logo du site Web"
+
+#: includes/vendor/cedaro-theme/class-cedaro-theme-widgetwhitelist.php:210
+msgid "This widget isn't configured for this widget area."
+msgstr "Ce module n'est pas disponible pour cette zone."
+
+#: includes/vendor/class-audiotheme-themenotice.php:27
+msgid ""
+"The AudioTheme plugin should be installed and activated for this theme to "
+"display properly."
+msgstr ""
+"Le plugin AudioTheme doit être installé et activé pour le bon fonctionnement "
+"de ce thème."
+
+#: includes/vendor/class-audiotheme-themenotice.php:28
+msgid "Activate now"
+msgstr "Activer maintenant"
+
+#: includes/vendor/class-audiotheme-themenotice.php:29
+msgid "Find out more"
+msgstr "Trouver plus d'éléments"
+
+#: includes/vendor/class-audiotheme-themenotice.php:30
+msgid "Dismiss"
+msgstr "Ne pas accepter"
+
+#: search.php:19
+#, c-format
+msgid "Search Results for: %s"
+msgstr "Chercher les résultats pour : %s"
+
+#: sidebar-header.php:14
+msgid "Main Menu"
+msgstr "Menu principal"
+
+#: sidebar-header.php:28
+msgid "Social Media Profiles"
+msgstr "Profils des médias des réseaux sociaux"
+
+#: templates/parts/content-none.php:21
+#, c-format
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+"Prêt à publier votre première publication ? <a href=\"%1$s\">Cliquer pour "
+"commencer</a>."
+
+#: templates/parts/content-none.php:27
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"Désolé, aucun résultat ne correspond à votre recherche. Veuillez essayer à "
+"nouveau avec des mots-clés différents."
+
+#: templates/parts/content-none.php:35
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr "Il semble qu&rsquo;aucun résultat ne corresponde &agrave; votre recherche."
+
+#: templates/parts/player.php:13
+msgid "Previous Track"
+msgstr "Piste précédente"
+
+#: templates/parts/player.php:15
+msgid "Next Track"
+msgstr "Piste suivante"
+
+#: templates/parts/player.php:43
+msgid "Remove Track"
+msgstr "Retirer la piste"
+
+#. Description of the plugin/theme
+msgid ""
+"Huesos (Spanish for bones), as its name suggests, is a straightforward, "
+"content-focused theme built to provide the foundation for your online "
+"presence."
+msgstr ""
+"Huesos (os en Espagnol), comme son nom le suggère, est un thème axé sur une "
+"présentation simple, aisée et structurée de vos contenus pour mettre en "
+"avant votre présence sur la toile."
+
+#. Template Name of the plugin/theme
+msgid "Full Width"
+msgstr "Page entière"
+
+#. Template Name of the plugin/theme
+msgid "No Sidebar"
+msgstr "Pas de zone latérale des modules"
+
+#: audiotheme/parts/content-none-gig.php:55
+#, c-format
+msgctxt "add post type link"
+msgid ""
+"Ready to publish your first gig? <a href=\"%1$s\" class=\"\">Get started "
+"here</a>."
+msgstr ""
+"Prêt à publier votre premier concert ? <a href=\"%1$s\">Cliquer pour "
+"commencer</a>."
+
+#: audiotheme/parts/content-none.php:30
+#, c-format
+msgctxt "post type label; add post type link"
+msgid "Ready to publish your first %1$s? <a href=\"%2$s\">Get started here</a>."
+msgstr ""
+"Prêt à publier votre premier %1$s ? <a href=\"%2$s\">Cliquer pour "
+"commencer</a>."
+
+#: audiotheme/parts/content-none.php:41
+#, c-format
+msgctxt "post type label"
+msgid "There are currently not any %s available."
+msgstr "Il n'y a aucun %s disponible pour le moment."
+
+#. translators: If there are characters in your language that are not supported
+#. by Pathway Gothic One, translate this to 'off'. Do not translate into your
+#. own language.
+#: functions.php:257
+msgctxt "Pathway Gothic One: on or off"
+msgid "on"
+msgstr "on"
+
+#. translators: To add an additional character subset specific to your
+#. language, translate this to 'latin-ext'. Do not translate into your own
+#. language.
+#: functions.php:262
+msgctxt "Add new subset (latin-ext)"
+msgid "no-subset"
+msgstr "no-subset"
+
+#: includes/template-tags.php:357
+msgctxt "Previous post link"
+msgid "Previous <span class=\"screen-reader-text\">Post: %title</span>"
+msgstr "<span class=\"screen-reader-text\">Publication : %title</span> précédente"
+
+#: includes/template-tags.php:358
+msgctxt "Next post link"
+msgid "Next <span class=\"screen-reader-text\">Post: %title</span>"
+msgstr "<span class=\"screen-reader-text\">Publication : %title</span> suivante"
+
+#: includes/vendor/cedaro-theme/class-cedaro-theme.php:220
+#, c-format
+msgctxt "suffix for paged archive titles"
+msgid "Page %s"
+msgstr "Page %s"

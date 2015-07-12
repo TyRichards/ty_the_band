@@ -1,0 +1,23 @@
+/**
+ * WooCommerce (plugin)
+ * @link http://www.woothemes.com/woocommerce/
+ * -----------------------------------------------------------------------------
+ */
+
+.woocommerce-demo-store {
+	padding-top: 94px;
+}
+
+.woocommerce-demo-store .huesos-player {
+	top: 44px;
+}
+
+.woocommerce-demo-store.admin-bar .huesos-player {
+	top: 90px;
+}
+
+@media screen and (min-width: 782px) {
+	.woocommerce-demo-store.admin-bar .huesos-player {
+		top: 76px;
+	}
+}

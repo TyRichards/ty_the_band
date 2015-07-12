@@ -1,0 +1,335 @@
+/**
+ * Color Schemes
+ * -----------------------------------------------------------------------------
+ */
+
+body.has-background-image {
+	background-color: #000 !important;
+}
+
+.huesos-background-overlay {
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: none;
+	opacity: 0.4;
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: -1;
+}
+
+.has-background-image .huesos-background-overlay {
+	display: block;
+}
+
+
+/* Scheme: Light Text
+------------------------------------------------------------------------------*/
+
+.light-text-scheme button,
+.light-text-scheme input[type="button"],
+.light-text-scheme input[type="reset"],
+.light-text-scheme input[type="submit"],
+.light-text-scheme .button {
+	background-color: rgba(255, 255, 255, 0.6);
+}
+
+.light-text-scheme hr {
+	background-color: rgba(255, 255, 255, 0.12);
+}
+
+.light-text-scheme .no-touch .tracklist .is-playable:hover,
+.light-text-scheme .site-navigation ul ul,
+.light-text-scheme .site-navigation ul ul ul,
+.light-text-scheme .wp-playlist-item:hover,
+.light-text-scheme .wp-playlist-item:focus,
+.light-text-scheme .wp-playlist-playing {
+	background-color: rgba(255, 255, 255, 0.05);
+}
+
+.light-text-scheme .mobile-navigation button {
+	background: none;
+}
+
+.light-text-scheme .wp-video-shortcode.mejs-container .mejs-controls {
+	background: rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (min-width: 1024px) {
+	.light-text-scheme .site-navigation ul ul,
+	.light-text-scheme .site-navigation ul ul ul {
+		background-color: transparent;
+	}
+}
+
+.light-text-scheme table,
+.light-text-scheme th,
+.light-text-scheme td,
+.light-text-scheme legend,
+.light-text-scheme blockquote,
+.light-text-scheme pre,
+.light-text-scheme abbr[title],
+.light-text-scheme .author .page-header,
+.light-text-scheme .category .page-header,
+.light-text-scheme .comment-navigation,
+.light-text-scheme .comment-list + .comment-respond,
+.light-text-scheme .comment-list article,
+.light-text-scheme .comments-area,
+.light-text-scheme .date .page-header,
+.light-text-scheme #edd_purchase_form .edd-payment-mode-label,
+.light-text-scheme #edd_purchase_form #edd-payment-mode-wrap,
+.light-text-scheme #edd_purchase_form #edd-discount-code-wrap,
+.light-text-scheme #edd_purchase_form #edd_purchase_submit,
+.light-text-scheme #edd_purchase_form #edd_show_discount,
+.light-text-scheme .gig-card + .gig-list-year,
+.light-text-scheme .gig-list-header,
+.light-text-scheme .gig-tickets,
+.light-text-scheme .hentry + .hentry,
+.light-text-scheme .huesos-preview.has-preview,
+.light-text-scheme .mobile-navigation,
+.light-text-scheme .no-comments,
+.light-text-scheme .page-links,
+.light-text-scheme .post-navigation,
+.light-text-scheme .posts-navigation,
+.light-text-scheme .search .page-header,
+.light-text-scheme .site-navigation,
+.light-text-scheme .site-navigation li,
+.light-text-scheme .tag .page-header,
+.light-text-scheme .tracklist,
+.light-text-scheme .tracklist .track,
+.light-text-scheme .venue-meta,
+.light-text-scheme .venue-meta dd,
+.light-text-scheme .widget,
+.light-text-scheme .widget-area,
+.light-text-scheme .wp-audio-shortcode,
+.light-text-scheme .wp-playlist-current-item,
+.light-text-scheme .wp-playlist-item,
+.light-text-scheme .wp-playlist-item:last-child,
+.light-text-scheme .wp-playlist-tracks {
+	border-color: rgba(255, 255, 255, 0.12);
+}
+
+.light-text-scheme .comment-list .children article,
+.light-text-scheme .gig-card,
+.light-text-scheme .gig-list,
+.light-text-scheme .widget-area--home .widget_recent_entries li,
+.light-text-scheme .widget_audiotheme_upcoming_gigs a.more-link,
+.light-text-scheme .widget_categories .children,
+.light-text-scheme .widget_nav_menu .sub-menu,
+.light-text-scheme .widget_pages .children {
+	border-color: rgba(255, 255, 255, 0.05);
+}
+
+.light-text-scheme caption,
+.light-text-scheme thead,
+.light-text-scheme legend,
+.light-text-scheme blockquote cite,
+.light-text-scheme blockquote small,
+.light-text-scheme h1,
+.light-text-scheme h2,
+.light-text-scheme h3,
+.light-text-scheme h4,
+.light-text-scheme h5,
+.light-text-scheme h6,
+.light-text-scheme .comments-title,
+.light-text-scheme .comment-reply-title,
+.light-text-scheme .comment-form label,
+.light-text-scheme #edd_final_total_wrap,
+.light-text-scheme #edd_purchase_form .edd-payment-mode-label,
+.light-text-scheme .edd_purchase_receipt_product_name,
+.light-text-scheme .entry-header .gig-date-time,
+.light-text-scheme .entry-header .gig-location,
+.light-text-scheme .entry-meta .venue-title,
+.light-text-scheme .entry-title,
+.light-text-scheme .entry-title a,
+.light-text-scheme .gig-list-header,
+.light-text-scheme .gig-list-year,
+.light-text-scheme .huesos-mejs-container.mejs-container button,
+.light-text-scheme .page-links > .page-links-title,
+.light-text-scheme .page-title,
+.light-text-scheme .site-navigation .current-menu-item > a,
+.light-text-scheme .site-navigation .dropdown-toggle.is-open,
+.light-text-scheme .site-title a,
+.light-text-scheme .tracklist a,
+.light-text-scheme .widget-title,
+.light-text-scheme .wp-playlist-item-title {
+	color: #fff;
+}
+
+.light-text-scheme,
+.light-text-scheme a,
+.light-text-scheme .huesos-mejs-container.mejs-container button,
+.light-text-scheme .huesos-mejs-container.mejs-container .mejs-controls .mejs-time,
+.light-text-scheme .mobile-navigation button:focus,
+.light-text-scheme .mobile-navigation button:hover,
+.light-text-scheme .mobile-navigation button:focus:before,
+.light-text-scheme .mobile-navigation button:hover:before,
+.light-text-scheme .page-links a,
+.light-text-scheme .secondary-toggle,
+.light-text-scheme .tracklist .track-title,
+.light-text-scheme .venue-meta dd,
+.light-text-scheme .widget_archive a:hover,
+.light-text-scheme .widget_archive a:focus,
+.light-text-scheme .widget_categories a:hover,
+.light-text-scheme .widget_categories a:focus,
+.light-text-scheme .widget_recent_comments a:hover,
+.light-text-scheme .widget_recent_comments a:focus,
+.light-text-scheme .wp-playlist-current-item .wp-playlist-item-title,
+.light-text-scheme .wp-playlist-item:hover,
+.light-text-scheme .wp-playlist-item:focus,
+.light-text-scheme .wp-playlist-playing,
+.light-text-scheme .wp-playlist-light,
+.light-text-scheme .wp-playlist-light .wp-playlist-caption,
+.light-text-scheme .wp-playlist-light .wp-playlist-playing {
+	color: rgba(255, 255, 255, 0.8);
+}
+
+.light-text-scheme blockquote,
+.light-text-scheme figcaption,
+.light-text-scheme label,
+.light-text-scheme .block-grid-item-meta,
+.light-text-scheme .bypostauthor > article .fn:after,
+.light-text-scheme .comment-list .reply a,
+.light-text-scheme .comment-awaiting-moderation,
+.light-text-scheme .comment-metadata,
+.light-text-scheme .comment-navigation,
+.light-text-scheme .comment-notes,
+.light-text-scheme .content-area .contact-form label span,
+.light-text-scheme .credits,
+.light-text-scheme .credits a,
+.light-text-scheme #edd_purchase_receipt,
+.light-text-scheme #edd_purchase_form .edd-description,
+.light-text-scheme .edd_purchase_receipt_product_notes,
+.light-text-scheme .entry-footer,
+.light-text-scheme .entry-header .gig-date-time .gig-time,
+.light-text-scheme .entry-header .gig-location .country-name,
+.light-text-scheme .entry-meta,
+.light-text-scheme .entry-subtitle,
+.light-text-scheme .gig-card .gig-description,
+.light-text-scheme .gig-card .venue-name,
+.light-text-scheme .logged-in-as,
+.light-text-scheme .mobile-navigation button:before,
+.light-text-scheme .no-comments,
+.light-text-scheme .page-links a:hover,
+.light-text-scheme .page-links a:focus,
+.light-text-scheme .pingback .edit-link,
+.light-text-scheme .post-navigation a,
+.light-text-scheme .posts-navigation a,
+.light-text-scheme .posted-by a,
+.light-text-scheme .posted-on a,
+.light-text-scheme .recent-posts-item-date,
+.light-text-scheme .recent-posts-item-date:before,
+.light-text-scheme .secondary-toggle:before,
+.light-text-scheme .site-description,
+.light-text-scheme .site-navigation .dropdown-toggle,
+.light-text-scheme .social-navigation a,
+.light-text-scheme .tracklist .track,
+.light-text-scheme .widget_audiotheme_upcoming_gigs a.more-link:before,
+.light-text-scheme .widget_audiotheme_upcoming_gigs a.more-link:after,
+.light-text-scheme .widget_archive,
+.light-text-scheme .widget_categories,
+.light-text-scheme .widget_recent_comments,
+.light-text-scheme .widget_recent_entries .post-date,
+.light-text-scheme .widget-area--sidebar .widget_recent_entries .post-date:before,
+.light-text-scheme .widget_rss cite,
+.light-text-scheme .widget_rss .rss-date,
+.light-text-scheme .widget_rss .rssSummary:before,
+.light-text-scheme .widget_rss .rss-date:before,
+.light-text-scheme .wp-caption-text,
+.light-text-scheme .wp-playlist-item-artist {
+	color: rgba(255, 255, 255, 0.6);
+}
+
+.light-text-scheme .widget_audiotheme_upcoming_gigs a.more-link {
+	color: rgba(255, 255, 255, 0.6);
+}
+
+.light-text-scheme .widget_audiotheme_upcoming_gigs a.more-link:hover {
+	color: rgba(255, 255, 255, 0.8);
+}
+
+@media screen and (min-width: 960px) and (max-width: 1023px), (min-width: 1296px) {
+	.light-text-scheme.layout-full .record-details dl {
+		color: rgba(255, 255, 255, 0.8);
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.light-text-scheme .site-navigation .sub-menu a {
+		color: rgba(255, 255, 255, 0.6);
+	}
+}
+
+.light-text-scheme .huesos-mejs-container.mejs-container .mejs-controls .mejs-time-rail .mejs-time-total,
+.light-text-scheme .huesos-mejs-container.mejs-container .mejs-controls .mejs-time-rail .mejs-time-loaded,
+.light-text-scheme .huesos-mejs-container.mejs-container .mejs-controls .mejs-time-rail .mejs-time-float {
+	background: rgba(255, 255, 255, 0.05);
+}
+
+.light-text-scheme .huesos-mejs-container.mejs-container .mejs-controls .mejs-time-rail .mejs-time-current {
+	background: rgba(255, 255, 255, 0.12);
+}
+
+.light-text-scheme .huesos-mejs-container.mejs-container .mejs-controls .mejs-time-rail .mejs-time-float-corner {
+	border-top-color: rgba(255, 255, 255, 0.05);
+}
+
+.light-text-scheme .huesos-mejs-container.mejs-container .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-total {
+	background: rgba(255, 255, 255, 0.05);
+}
+
+.light-text-scheme .huesos-mejs-container.mejs-container .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current {
+	background: rgba(255, 255, 255, 0.12);
+}
+
+
+/* Scheme: Light Player
+------------------------------------------------------------------------------*/
+
+.light-player-scheme .huesos-player .progress-bar,
+.light-player-scheme .huesos-player .play-bar {
+	background-color: rgba(255, 255, 255, 0.1);
+}
+
+.light-player-scheme .huesos-player .volume-slider:before {
+	background-color: rgba(255, 255, 255, 0.15);
+}
+
+.light-player-scheme .huesos-player .volume-slider-handle {
+	background-color: rgba(255, 255, 255, 0.3);
+}
+
+@media screen and (max-width: 1023px) {
+	.light-player-scheme .huesos-player .track-cell,
+	.light-player-scheme .huesos-player .track:before {
+		border-color: rgba(255, 255, 255, 0.05);
+	}
+}
+
+.light-player-scheme .huesos-player .volume-slider {
+	box-shadow: 4px 4px rgba(255, 255, 255, 0.1);
+}
+
+.light-player-scheme .huesos-player,
+.light-player-scheme .huesos-player .controls button,
+.light-player-scheme .huesos-player .controls button:focus,
+.light-player-scheme .huesos-player .controls button:hover {
+	color: rgba(255, 255, 255, 0.6);
+}
+
+@media screen and (max-width: 1023px) {
+	.light-player-scheme .huesos-player .current-track-details {
+		color: #fff;
+	}
+
+	.light-player-scheme .huesos-player .track .track-title {
+		color: rgba(255, 255, 255, 0.8);
+	}
+
+	.light-player-scheme .huesos-player .track {
+		color: rgba(255, 255, 255, 0.6);
+	}
+}
