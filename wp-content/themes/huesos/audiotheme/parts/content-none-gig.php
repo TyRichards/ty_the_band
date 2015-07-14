@@ -60,7 +60,12 @@
 			<?php endif; ?>
 
 			<p>
+				<header class="page-header">
+					<h1 class="page-title"><?php esc_html_e( 'Upcoming  Shows', 'huesos' ); ?></h1>
+				</header>				
 				<?php esc_html_e( "There currently aren't any scheduled shows. Check back soon!", 'huesos' ); ?>
+				<br/><br/><br/>
+				<?php gravity_form( 2, true, true, false, '', true ); ?>
 			</p>
 		</div>
 
