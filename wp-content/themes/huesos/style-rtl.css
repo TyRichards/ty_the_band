@@ -1282,7 +1282,8 @@ a:focus .button-play {
 }
 
 .social-navigation a[href*="apple.com"]:before,
-.social-navigation a[href*="itunes.com"]:before {
+.social-navigation a[href*="itunes.com"]:before,
+.social-navigation a[href*="itun.es"]:before {
 	content: "\f101";
 }
 
