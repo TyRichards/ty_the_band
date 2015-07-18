@@ -30,7 +30,7 @@
 		</header>
 
 		<div class="page-content">
-			<p><em><?php esc_html_e( "There currently aren't any scheduled shows. Check back soon!", 'huesos' ); ?></em></p>
+			<p><em><?php esc_html_e( "Tour is in the works. Join the email list to be the first to get dates.", 'huesos' ); ?></em></p>
 		</div>
 
 		<article id="gigs" class="gig-list vcalendar">
@@ -63,7 +63,7 @@
 				<header class="page-header">
 					<h1 class="page-title"><?php esc_html_e( 'Upcoming  Shows', 'huesos' ); ?></h1>
 				</header>				
-				<?php esc_html_e( "There currently aren't any scheduled shows. Check back soon!", 'huesos' ); ?>
+				<?php esc_html_e( "Tour is in the works. Join the email list to be the first to get dates.", 'huesos' ); ?>
 				<br/><br/><br/>
 				<?php gravity_form( 2, true, true, false, '', true ); ?>
 			</p>
